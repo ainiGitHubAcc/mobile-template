@@ -36,7 +36,7 @@
     "configurations": {
       "ios.sim.debug": {
         "binaryPath": "ios/build/Build/Products/Debug-iphonesimulator/newApp.app",
-        "build": "xcodebuild -project ios/newApp.xcodeproj -UseNewBuildSystem=NO -scheme newApp -configuration Debug -sdk iphonesimulator -derivedDataPath ios/build",
+        "build": "xcodebuild -project ios/newApp.xcodeproj -scheme newApp -configuration Debug -sdk iphonesimulator -derivedDataPath ios/build",
         "type": "ios.simulator",
         "device": {
           "type": "iPhone 11 Pro"
